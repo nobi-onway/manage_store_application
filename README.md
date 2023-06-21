@@ -9,7 +9,7 @@
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
+```
 
 4. Thêm một 'fragment' vào file layout.mxl của ứng dụng:
 
@@ -20,4 +20,5 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />
+```
 
