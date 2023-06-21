@@ -32,4 +32,25 @@ Step 5: Thêm một 'fragment' vào file layout.mxl của ứng dụng:
         android:layout_height="match_parent"
         />
 ```
+Step 6: Khởi tạo google map trong activity
+
+```xml
+    private GoogleMap _googleMap;
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.store_map_layout);
+
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.store_map_fragment);
+
+        mapFragment.getMapAsync(new OnMapReadyCallback() {
+            @Override
+            public void onMapReady(GoogleMap map) {
+                _googleMap = map;
+            }
+        }
+```
+
 
