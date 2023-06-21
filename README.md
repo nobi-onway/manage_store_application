@@ -1,6 +1,7 @@
 # Hướng dẫn triển khai Google Maps trong Android Studio
 
 Step 1: Nhận một khóa API Google Maps từ Google Cloud Console. (https://console.cloud.google.com)
+
 Step 2: Thêm API Key vào project.
 
 ```xml
