@@ -17,13 +17,13 @@ Step 3: Thêm dependency của Google Play services trong tệp build.gradle c�
 ```xml
 implementation 'com.google.android.gms:play-services-maps:18.1.0'
 ```
-3. Thêm các quyền cần thiết vào tệp AndroidManifest.xml:
+Step 4: Thêm các quyền cần thiết vào tệp AndroidManifest.xml:
 ```xml
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 ```
-4. Thêm một 'fragment' vào file layout.mxl của ứng dụng:
+Step 5: Thêm một 'fragment' vào file layout.mxl của ứng dụng:
 ```xml
 <fragment
         android:id="@+id/store_map_fragment"
