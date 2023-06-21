@@ -13,7 +13,7 @@ Step 2: Thêm API Key vào project.
             android:value="@string/google_map_api_key" />
 </application>
 ```
-Step 3: Thêm dependency của Google Play services trong tệp build.gradle của ứng dụng:
+Step 3: Thêm dependency của Google Play services trong tệp build.gradle của ứng dụng, sau đó bấm **Sync** trên thanh công cụ.
 ```xml
 implementation 'com.google.android.gms:play-services-maps:18.1.0'
 ```
