@@ -9,7 +9,11 @@
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-5. Thêm một 'fragment' vào file layout.mxl của ứng dụng
+
+
+4. Thêm một 'fragment' vào file layout.mxl của ứng dụng:
+
+```xml
 <fragment
         android:id="@+id/store_map_fragment"
         android:name="com.google.android.gms.maps.SupportMapFragment"
