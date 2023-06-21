@@ -51,6 +51,7 @@ Step 6: Khởi tạo google map trong activity
                 _googleMap = map;
             }
         }
+    }
 ```
 
 
